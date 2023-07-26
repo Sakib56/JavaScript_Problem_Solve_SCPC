@@ -4,16 +4,15 @@ Example Input: [2, -5, 10, -3, 7] Example Output: 19  */
 
 function sumOfPositiveNumbers(inputArray) {
     let sum = 0;
-    
+
     for (let i = 0; i < inputArray.length; i++) {
-      if (inputArray[i] > 0) {
-        sum += inputArray[i];
-      }
-    }    
+        if (inputArray[i] > 0) {
+            sum += inputArray[i];
+        }
+    }
     return sum;
-  }
-  
-  const numbers = [2, -5, 10, -3, 7];
-  const result = sumOfPositiveNumbers(numbers);
-  console.log(result); 
-  
+}
+
+const numbers = [2, -5, 10, -3, 7];
+const result = sumOfPositiveNumbers(numbers);
+console.log(result);
